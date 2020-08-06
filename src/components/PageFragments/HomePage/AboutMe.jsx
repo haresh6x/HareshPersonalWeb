@@ -6,16 +6,15 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
+  paraOne: `Hello !! My name is Haresh Samnani. I'm a frontend web developer who is
     passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
+    technologies. I have an experience of working with ReactJs framework. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
+    is what I love to do. Check my blog for some Javascript and some
     cool notes on web technologies.`,
   paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
     have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
     keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught developer.`,
 };
 
 const AboutMe = () => {
@@ -27,7 +26,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Haresh', 'Samnani', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -42,7 +41,7 @@ const AboutMe = () => {
             height={60}
             alt="location image"
             textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            textH3="Sidhpur, GJ, India"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -83,8 +82,8 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            textH4="Pursued M.sc in"
+            textH3="Information Technology"
             height={60}
             width={60}
           />
